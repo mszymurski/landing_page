@@ -6,9 +6,8 @@
 }
 
 .header, .footer
-{ background-color: #1f2937;
+{   background-color: #1f2937;
     color: #F9FAF8;
-    padding: 0px 200px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +17,7 @@
 {
     display: flex;
     align-items: center;
+    padding: 20px 200px 100px;
 }
 
 .logo
@@ -49,6 +49,7 @@ font-size: 18px;
     width: 300px;
     height: auto;
 }
+
 .container_one_subtext
 {
     height: auto;
@@ -58,6 +59,25 @@ font-size: 18px;
     margin: 20px 0;
 }
 
+.ph_image_box
+{
+    height: 250px;
+    width: 600px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_one
+{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
 .container_two_header
 {
 font-size: 36px;
@@ -65,7 +85,6 @@ font-weight: bolder;
 display: flex;
 justify-content: center;
 padding: 40px 0;
-
 }
 
 .info
@@ -81,7 +100,7 @@ img
 {
     height: 150px;
     width: 150px;
-    
+    border-radius: 10px;
 }
 .container_two_image_one
 {
@@ -123,18 +142,18 @@ img
     display: flex;
     text-align: center;
     margin-top: 15px;
-
 }
+
 .container_three
 {
     background-color: #e5E7EB;
-    padding: 50px 300px;
+    padding: 100px 300px;
 }    
 
 .quote
 {
-    font-style: italic;
     font-weight: lighter;
+    font-style: italic;
     font-size: 36px;
 }
 
@@ -144,20 +163,32 @@ img
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    padding-top: 50px;
 }
 
-.button_one, .button_four, .container_four
+.button_one, .button_four, .inside
 {
     background-color: #3882f6;
-
+    color: white;
 }
 
-.button_one
+.container_four
 {
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-    color: white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+
+}
+.inside
+{
+    height: auto;
+    width: 800px;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
 }
 
 .button_four
@@ -165,5 +196,14 @@ img
     height: 30px;
     width: 100px;
     border-radius: 5px;
-    border-color: white;
+    border: solid 2px white;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    padding: 30px;
 }
