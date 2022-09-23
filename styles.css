@@ -41,7 +41,6 @@ font-size: 18px;
     padding: 0px 200px 100px;
     color: #F9FAF8;
     display: flex;
-    flex-direction: column;
 }
 
 .container_one_header
@@ -62,11 +61,13 @@ font-size: 18px;
 .ph_image_box
 {
     height: 250px;
-    width: 600px;
+    width: 500px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
 }
 
 .button_one
@@ -78,6 +79,18 @@ font-size: 18px;
     color: #F9FAF8;
 }
 
+.one_left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.one_right
+{
+    display: flex;
+    margin-left: auto;
+
+}
 .container_two_header
 {
 font-size: 36px;
@@ -186,9 +199,23 @@ img
     width: 800px;
     padding: 30px 100px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 10px;
+    
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.right
+{
+display: flex;
+margin-left: auto;
 }
 
 .button_four
@@ -198,9 +225,9 @@ img
     border-radius: 5px;
     border: solid 2px white;
     display: flex;
-    align-self: flex-end;
     justify-content: center;
     align-items: center;
+    
 }
 
 .footer
